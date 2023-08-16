@@ -1,2 +1,2 @@
-# Disco-Diwane-JS-app
+# Disco-Diwane-JS-Mobile-app
 Simple Funny Disco app using JS
