@@ -3,8 +3,6 @@ let cat = document.getElementById("cat");
 const start = document.getElementById("start");
 const stop = document.getElementById("stop");
 
-const preloadedCatImage = new Image();
-preloadedCatImage.src = "./happy-cat.gif";
 
 function colorFind() {
   const colorCode = "0123456789ABCDEF";
@@ -17,7 +15,7 @@ function colorFind() {
 let intervalId;
 start.addEventListener("click", () => {
   discoBall.src = "./glowball.gif";
-  cat.src = preloadedCatImage.src;
+  cat.src =  "./happy-cat.gif";
 
   document.querySelector("h4").innerText = "press Stop to End";
   console.log("start");
