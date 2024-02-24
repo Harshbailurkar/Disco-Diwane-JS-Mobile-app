@@ -3,6 +3,7 @@ let cat = document.getElementById("cat");
 const start = document.getElementById("start");
 const stop = document.getElementById("stop");
 const audio = document.getElementById("audio");
+const audio = document.getElementById("audio");
 const cryaudio = document.getElementById("cryaudio");
 
 const preloadedCatImage = new Image();
@@ -22,6 +23,7 @@ start.addEventListener("click", () => {
   cat.src = preloadedCatImage.src;
 
   audio.src = "./song.mp3";
+  audio1.src="./SpotifyMate.com-Blinding Lights-The Weeknd.mp3";
   document.querySelector("h4").innerText = "press Stop to End";
   console.log("start");
   if (!intervalId) {
@@ -39,5 +41,6 @@ stop.addEventListener("click", () => {
   discoBall.src = "./offball.png";
   cat.src = "./banana-cat.gif";
   audio.src = " ";
+  ausio1.src=" ";
   cryaudio.src = "./crysong.mp3";
 });
